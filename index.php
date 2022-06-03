@@ -20,7 +20,7 @@
 		
 		<div id="scores">
 			<h1>Morpion</h1>
-			<form method="post" action="traitement.php">
+			<form method="post" >
 			
 					Joueur 1: <input type="text" name="player1"/> <br/>  
 					Joueur 2:  <input type="text" name="player2"/> <br/>  
