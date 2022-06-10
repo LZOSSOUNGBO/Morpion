@@ -10,19 +10,19 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<style><?php include('style.css'); ?></style>
+<!-- <style><?php include('style.css'); ?></style> -->
 <body >
 
     <div class="formplayer">
         
-        <form method="post" >
+        <form method="post" action="index.php" >
             
             Joueur  1 <input type="text" name="player1" class="jou1"/> <br/>
        
             Joueur  2  <input type="text" name="player2" class="jou2"/> <br/>  
       
              <input type="submit" name="submit" class="boutton">
-             <!-- <a href="./index.html" type="submit">submit</a> -->
+             <!-- <a href="./index.php" type="submit">submit</a> -->
         
             
         </form>

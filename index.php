@@ -1,3 +1,8 @@
+<?php 
+session_start(); 
+$_SESSION['player1'] = $_POST['player1'];
+$_SESSION['player2'] = $_POST['player2'];
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
 
@@ -28,8 +33,8 @@
 			</form> -->
 			<p id="nbMatches">0 manche</p>
 			<p class="scores-title">Scores</p>
-			<p id="player1" class="player1"><strong>X</strong> Joueur 1 : <span id="score1">0</span></p>
-			<p id="player2" class="player2"><strong>O</strong> Joueur 2 : <span id="score2">0</span></p>
+			<p id="player1" class="player1"><strong>X</strong> Joueur 1 : <?php echo $_SESSION["player1"]; ?> <span id="score1">0</span></p>
+			<p id="player2" class="player2"><strong>O</strong> Joueur 2 : <?php echo $_SESSION["player2"]; ?> <span id="score2">0</span></p>
 			<p id="scoreMessages" class="messages"></p>
 		</div>
 	</div>
