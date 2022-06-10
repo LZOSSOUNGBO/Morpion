@@ -57,7 +57,7 @@ function drawSector(x,y,i) {
 		casesPlayer1[i] = 1;
 		isPlayerOne = false;
 		$('#canvas').addClass('circle').removeClass('cross');
-		$("#scoreMessages").html("<span class=\"player2\">C'est au joueur 2 de jouer.</span>");
+		$("#scoreMessages").html("<span class=\"player2\"> C'est au joueur 2 de jouer.</span>");
 		if(casesPlayer1[0]*casesPlayer1[1]*casesPlayer1[2] == 1) theEnd(1);
 		else if(casesPlayer1[3]*casesPlayer1[4]*casesPlayer1[5] == 1) theEnd(1);
 		else if(casesPlayer1[6]*casesPlayer1[7]*casesPlayer1[8] == 1) theEnd(1);

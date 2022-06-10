@@ -9,6 +9,14 @@ body {
 	font-family: 'Segoe UI';
 	font-size: 13px;
 	color: #181818;
+	justify-content: center;
+    text-align: center;
+	font-family:Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	background-color:whitesmoke
+}
+.body2{
+	font-family:Helvetica, "Trebuchet MS", Verdana, sans-serif;
+	background-color:whitesmoke;
 }
 
 #canvas {
@@ -75,4 +83,28 @@ body {
 #scores p#nbMatches {
 	float: right;
 	margin-right: 25px;
+}
+
+.formplayer{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	line-height: normal;
+	font-size: large;
+	border-radius: 20px;
+	color: rgb(108, 20, 20);
+	/* padding: 3px 6px; */
+	
+}
+.jou2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.boutton{
+	line-height: normal;
+	font-size: large;
+	color: white;
+	background-color : rgb(108, 20, 20);
+	border-radius: 10px;
+	border: none;
 }
